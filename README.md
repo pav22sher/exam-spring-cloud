@@ -12,7 +12,20 @@
 * Возможность масштабировать нужные части системы
 
 Services:
-* `discovery-service` - Service discovery with Eureka http://localhost:8761/
+* `discovery-service` - Service discovery with Eureka
+* `exam-service` - entry point
+* `history-service` - вопросы по истории
+* `math-service` - вопросы по математики
+
+```http request
+POST http://localhost:8093/exams/exam
+Content-Type: application/json
+
+{
+  "MATH": 1,
+  "HISTORY": 1
+}
+```
 
 ### Ссылки
 * https://github.com/aabarmin/epam-spring-cloud-kubernetes-2021
