@@ -17,16 +17,6 @@ Services:
 * `history-service` - вопросы по истории
 * `math-service` - вопросы по математики
 
-```http request
-POST http://localhost:8093/exams/exam
-Content-Type: application/json
-
-{
-  "MATH": 1,
-  "HISTORY": 1
-}
-```
-
 ### —сылки
 * https://github.com/aabarmin/epam-spring-cloud-kubernetes-2021
 * https://github.com/Jeka1978/configproperties

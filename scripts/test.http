@@ -1,0 +1,11 @@
+POST http://localhost:8081/exams/exam
+Content-Type: application/json
+
+{
+  "MATH": 1,
+  "HISTORY": 1
+}
+
+<> 2023-10-21T111940.200.json
+<> 2023-10-15T111640.200.json
+
